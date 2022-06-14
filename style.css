@@ -1,0 +1,402 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    margin-top: 15px;
+    background-color: hsl(209, 48%, 14%);
+}
+header {
+    background-color: hsl(193, 100%, 96%);
+}
+nav {
+    margin-left: 22px;
+   
+}
+nav button {
+    padding: 9px 17px;
+    background-color: white;
+    cursor: pointer;
+    color: hsl(209, 48%, 14%);
+    border-color: white;
+    border-radius: 8px;
+    background-color: white;
+    position: absolute;
+    right: 4%;
+    font-weight: bolder;
+
+}
+#first {
+    margin-top: 20px;
+    background-color: hsl(193, 100%, 96%);   
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#first div {
+    width: 40%;
+    margin: 20px auto 0 auto;
+}
+
+#first2-div {
+    width: 40%;
+    margin: 10px auto 0 auto;
+}
+#first2-div img {
+    width: 80%;
+    margin: 0 auto 0 auto;
+}
+#first-div h1 {
+    font-size: 36px;
+    margin-bottom: 15px;
+    color: hsl(192, 100%, 9%);
+}
+#first-div p {
+    font-size: 17px;
+    margin-bottom: 15px;
+    color: hsl(192, 100%, 9%);
+}
+#first-div button{
+    background-color: purple;
+    padding: 5px 15px;
+    border-radius: 9px;
+    border-color: purple;
+    cursor: pointer;
+    color: white;
+}
+
+#second {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+}
+#second div {
+    margin-top: 50px;
+    width: 47%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#second1 h2 {
+    font-size: 32px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    color: hsl(192, 100%, 9%);
+
+}
+#second1 p{
+    font-size: 17px;
+    margin-bottom: 15px;
+    color: hsl(192, 100%, 9%);
+
+}
+#second2 img {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#third {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+
+}
+#third div {
+    width: 47%;
+}
+
+#third1 div {
+    margin-top: 100px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+#third1 h2 {
+    margin-top: 100px;
+    font-size: 32px;
+    margin-bottom: 15px;
+    color: hsl(192, 100%, 9%);
+
+}
+#third1 p{
+    font-size: 17px;
+    margin-bottom: 15px;
+    color: hsl(192, 100%, 9%);
+
+}
+#third2 img {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#four {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    height: 600px;
+}
+#four div {
+    width: 47%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#four1 h2 {
+    margin-top: 100px;
+    font-size: 32px;
+    margin-bottom: 15px;
+    color: hsl(192, 100%, 9%);
+
+}
+#four1 p{
+    font-size: 17px;
+    margin-bottom: 15px;
+    color: hsl(192, 100%, 9%);
+
+}
+#four2 img {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#five {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 15px;
+    height: 200px;
+    background-color: white;
+    position: relative;
+    bottom: 50px;
+}
+#five div{
+    text-align: center;
+}
+#five h2 {
+    margin-top: 35px;
+    font-size: 38px;
+    margin-bottom: 20px;
+    color: hsl(192, 100%, 9%);
+}
+#five button {
+    background-color: purple;
+    padding: 10px 22px;
+    border-radius: 13px;
+    border-color: purple;
+    cursor: pointer;
+    color: white;
+    margin-bottom: 15px;
+
+}
+footer a  {
+    text-decoration: none;
+    color: white;
+}
+footer {
+    width: 92%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: hsl(209, 48%, 14%);
+    color: white;
+    display: grid;
+    grid-template-areas: 'a b c d';
+}
+#f1 {
+    width: 160px;
+    grid-area: a;
+}
+#f2 {
+    grid-area: b;
+}
+#f3 {
+    grid-area: c;
+}
+#f4 {
+    grid-area: d;
+}
+#f4 a {
+    padding: 3px 5px;
+}
+@media screen and (max-width:1000px) {
+    #first {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    #first-div {
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }    
+}
+@media screen and (max-width:690px) {
+    #second {
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+    }
+    #second1 {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        order: 2;
+    
+    }
+    #second1 h2 {
+        font-size: 32px;
+        margin-top: 10px;
+        margin-bottom: 15px;
+        color: hsl(192, 100%, 9%);
+    
+    }
+    #second1 p{
+        font-size: 17px;
+        margin-bottom: 15px;
+        color: hsl(192, 100%, 9%);
+    
+    }
+    #second2 {
+        width: 96%;
+        margin-left: auto;
+        margin-right: auto;
+        order: 1;
+    }
+    #second2 img {
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #third {
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+    }
+    #third1 {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        order: 2;
+    
+    }
+    #third1 h2 {
+        font-size: 32px;
+        margin-top: 10px;
+        margin-bottom: 15px;
+        color: hsl(192, 100%, 9%);
+    
+    }
+    #third1 p{
+        font-size: 17px;
+        margin-bottom: 15px;
+        color: hsl(192, 100%, 9%);
+    
+    }
+    #third2 {
+        width: 97%;
+        margin-left: auto;
+        margin-right: auto;
+        order: 1;
+    }
+    #third2 img {
+        width: 98%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #four {
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+    }
+    #four1 {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        order: 2;
+    
+    }
+    #four1 h2 {
+        font-size: 32px;
+        margin-top: 10px;
+        margin-bottom: 15px;
+        color: hsl(192, 100%, 9%);
+    
+    }
+    #four1 p{
+        font-size: 17px;
+        margin-bottom: 15px;
+        color: hsl(192, 100%, 9%);
+    
+    }
+    #four2 {
+        width: 97%;
+        margin-left: auto;
+        margin-right: auto;
+        order: 1;
+    }
+    #four2 img {
+        width: 98%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #five {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px 15px;
+        height: 200px;
+        background-color: white;
+        position: relative;
+        bottom: 25px;
+    }
+    #five div{
+        text-align: center;
+    }
+    #five h2 {
+        margin-top: 35px;
+        font-size: 38px;
+        margin-bottom: 20px;
+        color: hsl(192, 100%, 9%);
+    }
+    #five button {
+        background-color: purple;
+        padding: 10px 22px;
+        border-radius: 13px;
+        border-color: purple;
+        cursor: pointer;
+        color: white;
+        margin-bottom: 15px;
+    
+    }
+
+    footer a  {
+        text-decoration: none;
+        color: white;
+    }
+    footer {
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: hsl(209, 48%, 14%);
+        color: white;
+        display: grid;
+        grid-template-areas: 'a' 'b' 'c' 'd';
+    }
+    #f1 {
+        width: 90%;
+        grid-area: a;
+    }
+    #f2 {
+        grid-area: b;
+    }
+    #f3 {
+        grid-area: c;
+    }
+    #f4 {
+        grid-area: d;
+        margin-bottom: 50px;
+    }
+
+}
