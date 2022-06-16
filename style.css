@@ -24,8 +24,6 @@ nav button {
     background-color: white;
     position: absolute;
     right: 4%;
-    font-weight: bolder;
-
 }
 #first {
     margin-top: 20px;
@@ -214,11 +212,15 @@ footer {
 }
 #f4 {
     grid-area: d;
+
 }
 #f4 a {
     padding: 3px 5px;
 }
-@media screen and (max-width:1000px) {
+.paste {
+    display: none;
+}
+@media screen and (min-width:691px) and (max-width:1000px) {
     #first {
         margin-top: 50px;
         display: flex;
@@ -229,7 +231,8 @@ footer {
         width: 60%;
         margin-left: auto;
         margin-right: auto;
-    }    
+    }
+  
 }
 @media screen and (max-width:690px) {
     #second {
@@ -346,7 +349,7 @@ footer {
         margin-left: auto;
         margin-right: auto;
         padding: 10px 15px;
-        height: 200px;
+        height: 300px;
         background-color: white;
         position: relative;
         bottom: 25px;
@@ -356,7 +359,7 @@ footer {
     }
     #five h2 {
         margin-top: 35px;
-        font-size: 38px;
+        font-size: 32px;
         margin-bottom: 20px;
         color: hsl(192, 100%, 9%);
     }
@@ -398,5 +401,12 @@ footer {
         grid-area: d;
         margin-bottom: 50px;
     }
+    .copy {
+        display: none;
+    }  
+    .paste {
+        display: block;
+    }
 
 }
+
